@@ -8,21 +8,28 @@
 # steps = 'DUDDDUUDUU'
 # result = 2 dolina
 
-path = 8
-steps = 'UDDDUDUU'
+# path = 8
+# steps = 'UDDDUDUU'
 
-sea_level = 0
-valleys = 0
+# sea_level = 0
+# valleys = 0
 
-for step in steps:
-    if step == 'U':
-        sea_level += 1
-        if sea_level == 0:
-            valleys += 1
-    elif step == 'D':
-        sea_level -= 1
+# for step in steps:
+#     if step == 'U':
+#         sea_level += 1
+#         if sea_level == 0:
+#             valleys += 1
+#     elif step == 'D':
+#         sea_level -= 1
 
-print(f'Result: {valleys}count!')
+# print(f'Result: {valleys}count!')
+
+
+import lamabimgo
+
+
+
+
 
 
  
